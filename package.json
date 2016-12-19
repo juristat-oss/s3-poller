@@ -1,0 +1,29 @@
+{
+  "name": "s3-poller",
+  "version": "1.0.0",
+  "description": "Fetch and configurably poll a JSON resource from S3",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . && mocha test.js"
+  },
+  "keywords": [
+    "s3",
+    "json",
+    "poll",
+    "file"
+  ],
+  "author": "Ben Chociej <ben.chociej@juristat.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "aws-sdk": "^2.7.15"
+  },
+  "devDependencies": {
+    "aws-sdk-mock": "^1.6.1",
+    "chai": "^3.5.0",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "^3.2.0"
+  },
+  "repository": "juristat-oss/s3-poller"
+}
